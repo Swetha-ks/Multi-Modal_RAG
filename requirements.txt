@@ -1,0 +1,59 @@
+# ─────────────────────────────────────────────────────────
+# ShopAI — Full Multimodal RAG E-Commerce Assistant
+# Install in this order:
+# 1. pip install torch torchvision
+# 2. pip install -r requirements.txt
+# ─────────────────────────────────────────────────────────
+
+# Multimodal Embedding
+open-clip-torch
+Pillow
+
+# Vector Database
+chromadb
+
+# LLM
+groq
+
+# Orchestration
+langchain
+langchain-community
+langchain-groq
+
+# Data
+pandas
+numpy
+requests
+tqdm
+
+# UI
+streamlit
+streamlit-extras
+plotly
+
+# Voice Input
+SpeechRecognition
+pyaudio
+
+# Voice Output (Google-style)
+gtts
+playsound==1.2.2
+pygame
+
+# Evaluation
+scikit-learn
+ragas
+
+# PDF Export (Chat History Export feature)
+fpdf2
+
+# Maps — address picker + delivery route tracking (free, no API key)
+folium
+streamlit-folium
+geopy
+
+# Real SMS OTP delivery (requires your own Twilio account — see .env.example)
+twilio
+
+# Utils
+python-dotenv
